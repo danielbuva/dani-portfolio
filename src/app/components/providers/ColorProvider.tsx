@@ -24,7 +24,7 @@ export function ColorProvider({ children }: { children: ReactNode }) {
         toggleMode,
       }}
     >
-      <div id={theme}>{children}</div>
+      <body id={theme}>{children}</body>
     </ThemeContext.Provider>
   );
 }
