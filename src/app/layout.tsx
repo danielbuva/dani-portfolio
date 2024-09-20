@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import { ColorProvider } from "./components/providers/ColorProvider";
+import Navigation from "./components/Navigation";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -15,7 +16,11 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <ColorProvider>{children}</ColorProvider>
+      <ColorProvider>
+        <main className="bg-gradient flex min-h-screen flex-col items-center">
+          <Navigation>{children}</Navigation>
+        </main>
+      </ColorProvider>
     </html>
   );
 }
