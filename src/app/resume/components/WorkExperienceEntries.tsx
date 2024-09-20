@@ -26,17 +26,16 @@ export default function WorkExperienceEntries() {
         organization="LOUD"
         title="Full Stack Developer"
         description={[
-          "Created and delivered 30+ interactive digital tutor lessons to enhance student engagement and comprehension.",
-          "Collaborated on a team of content experts, and designers to implement various types of learning activities, quizzes, simulations, games, and more.",
+          "Rebuilt the product pages from the ground up using Next.js, integrating Shopify CMS to dynamically fetch product data and handle purchases.",
+          "Used Next.js with server components for optimized backend and frontend performance.",
         ]}
         technologies={[
           "Next.js",
           "React",
           "Typescript",
-          "Pixi.js",
           "Tailwind",
           "Figma",
-          "Framer Motion",
+          "Shopify",
         ]}
       />
     </>
