@@ -17,13 +17,15 @@
   color: #00000075;
 }
 
-#light #nav:hover {
+#light #nav:hover,
+#light #active {
   color: #000000;
 }
 
 #dark #nav {
   color: #c7dde375;
 }
-#dark #nav:hover {
+#dark #nav:hover,
+#dark #active {
   color: #c7dde3;
 }
