@@ -1,4 +1,4 @@
-import DividerSVG from "./components/DividerSVG";
+import DividerSVG from "./components/svg/DividerSVG";
 
 export default function NotFound() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import LightDarkSVG from "./LightDarkSVG";
+import LightDarkSVG from "./svg/LightDarkSVG";
 import { useTheme } from "../hooks/useTheme";
 
 export default function ThemeToggler() {
