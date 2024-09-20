@@ -13,7 +13,8 @@
   color: #d9dbd6;
 }
 
-#light #nav {
+#light #nav,
+#light #sub {
   color: #00000075;
 }
 
@@ -22,7 +23,8 @@
   color: #000000;
 }
 
-#dark #nav {
+#dark #nav,
+#dark #sub {
   color: #c7dde375;
 }
 #dark #nav:hover,
