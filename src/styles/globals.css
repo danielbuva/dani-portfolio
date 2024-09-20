@@ -14,7 +14,8 @@
 }
 
 #light #nav,
-#light #sub {
+#light #sub,
+#light #link:hover {
   color: #00000075;
 }
 
@@ -24,7 +25,8 @@
 }
 
 #dark #nav,
-#dark #sub {
+#dark #sub,
+#dark #link:hover {
   color: #c7dde375;
 }
 #dark #nav:hover,
