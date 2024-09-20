@@ -35,7 +35,7 @@ export default function WorkExperienceEntries() {
           "Typescript",
           "Tailwind",
           "Figma",
-          "Shopify",
+          "Framer Motion",
         ]}
       />
     </>
