@@ -35,7 +35,7 @@ export default function Navigation({ children }: { children: ReactNode }) {
         </div>
         <ThemeToggler />
       </div>
-      <div className="flex w-[598px] flex-grow flex-col gap-8 rounded-3xl border p-8">
+      <div className="flex w-[598px] flex-grow flex-col gap-8 overflow-scroll rounded-3xl border p-8">
         {children}
       </div>
       <div className="container flex h-10 items-center justify-center gap-2 text-sm text-[#c7dde375]">

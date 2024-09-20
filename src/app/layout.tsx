@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <ColorProvider>
-        <main className="bg-gradient flex min-h-screen flex-col items-center">
+        <main className="bg-gradient flex h-screen flex-col items-center">
           <Navigation>{children}</Navigation>
         </main>
       </ColorProvider>
