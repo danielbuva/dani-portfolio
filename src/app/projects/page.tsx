@@ -1,11 +1,9 @@
+import ProjectEntries from "./components/ProjectEntries";
+
 export default function Projects() {
   return (
-    <div>
-      <p>millio one</p>
-      <p>goaly</p>
-      <p>YCHSHIP</p>
-      <p>musy</p>
-      <p>vs code themes</p>
+    <div className="flex flex-col gap-8">
+      <ProjectEntries />
     </div>
   );
 }
